@@ -11,7 +11,7 @@ export default function ReactTogetherWrapper({ children }) {
         name: process.env.NEXT_PUBLIC_NAME,
         password: process.env.NEXT_PUBLIC_PASSWORD,
       }}
-      rememberUsers={true}
+      // rememberUsers={true}
     >
       {children}
     </ReactTogether>
