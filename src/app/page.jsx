@@ -11,7 +11,7 @@ import {
 } from "react-together";
 
 const TARGET_SIZE = 60;
-const GAME_DURATION = 10; // seconds
+const GAME_DURATION = 60; // seconds
 const TARGET_SPAWN_INTERVAL = 2000; // 2 seconds
 const EMOJIS = ["🎯", "⭐", "💎", "🎁", "🏆", "🔥", "⚡", "🌟", "💫", "🎪"];
 
