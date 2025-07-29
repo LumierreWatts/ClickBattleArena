@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Providers from "@/provider/Providers";
 import "@rainbow-me/rainbowkit/styles.css";
+import { Cursors } from "react-together";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} antialiased`}>
         <Providers>
           <main className="">{children}</main>
+          <Cursors />
         </Providers>
       </body>
     </html>
